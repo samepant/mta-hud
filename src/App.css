@@ -1,22 +1,91 @@
-.App {
-  text-align: center;
+svg {
+  width: 100vw;
+  height: 100vh;
+}
+.st0 {
+  display: none;
+}
+.st1 {
+  display: inline;
+}
+.st2 {
+  fill: #6edcff;
+}
+.st3 {
+  fill: #ff1d25;
+}
+.st4 {
+  fill: #fff846;
+}
+.st5 {
+  display: inline;
+  fill: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.time-list {
+  list-style: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.time-list-container {
+  position: absolute;
+  left: 12%;
+}
+
+.time-list li {
+  margin-right: 4vw;
+  font-size: 5vw;
+  width: 9vw;
+}
+
+#jN {
+  top: 23.6vw;
+}
+
+#jS {
+  top: 37.7vw;
+}
+
+#b52 {
+  top: 71.8vw;
+}
+
+#b38 {
+  top: 106vw;
+}
+
+.clock > * {
+  position: absolute;
+  color: black;
+}
+
+.time {
+  font-family: "Cheesy Tots";
+  color: black;
+  font-size: 14vw;
+  bottom: 20.5vw;
+  width: 18vw;
+}
+
+.hour {
+  left: 8vw;
+  text-align: right;
+}
+
+.min {
+  left: 29.5vw;
+}
+
+.sig {
+  bottom: 26.5vw;
+  left: 47vw;
+  font-size: 7vw;
+}
+
+.date {
+  bottom: 23.5vw;
+  left: 47vw;
+  font-size: 2.8vw;
+  text-transform: uppercase;
 }
