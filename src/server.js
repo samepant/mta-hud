@@ -13,7 +13,7 @@ const busKey = process.env.BUSKEY;
 const app = express();
 const client = createClient(mtaKey);
 
-app.use(express.static(path.join(__dirname, "build")));
+app.use(express.static(path.join(__dirname, "../build")));
 
 app.get("/subway", function(req, res) {
   // only gets trains for the J gates stop at the moment
