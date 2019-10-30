@@ -30,38 +30,41 @@ svg {
 
 .time-list-container {
   position: absolute;
-  left: 12%;
+  left: 10vw;
 }
 
 .time-list li {
   margin-right: 4vw;
   font-size: 5vw;
   width: 9vw;
+  text-align: right;
 }
 
 #jN {
-  top: 23.6vw;
+  top: 23vw;
 }
 
 #jS {
-  top: 37.7vw;
+  top: 37vw;
 }
 
 #b52 {
-  top: 71.8vw;
+  top: 71vw;
 }
 
 #b38 {
-  top: 106vw;
+  top: 105vw;
 }
 
 .clock > * {
   position: absolute;
   color: black;
 }
-
+.min-label {
+  font-size: 3vw;
+}
 .time {
-  font-family: "Cheesy Tots";
+  font-family: 'Cheesy Tots';
   color: black;
   font-size: 14vw;
   bottom: 20.5vw;
@@ -96,4 +99,25 @@ svg {
   right: 100px;
   color: red;
   font-size: 50px;
+}
+.weather {
+  color: black;
+}
+.weather > * {
+  position: absolute;
+  color: black;
+}
+.temp {
+  font-size: 9vw;
+  font-family: 'Cheesy Tots';
+  bottom: 10.5vw;
+  left: 13.2vw;
+}
+.description {
+  bottom: 8.2vw;
+  left: 12.3vw;
+  text-transform: uppercase;
+  width: 12vw;
+  text-align: center;
+  font-size: 1.2vw;
 }

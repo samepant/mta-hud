@@ -3,18 +3,11 @@ import React from "react";
 
 export default class clock extends React.Component {
   state = {
-    time: moment(),
-    width: 0,
-    height: 0
+    time: moment()
   };
 
   componentDidMount() {
     this.timerID = setInterval(() => this.tick(), 1000);
-
-    this.setState({
-      width: window.innerWidth,
-      height: window.innerHeight
-    });
   }
 
   componentWillUnmount() {
@@ -34,9 +27,6 @@ export default class clock extends React.Component {
         <div className="time min">{this.state.time.format("mm")}</div>
         <div className="sig">{this.state.time.format("A")}</div>
         <div className="date">{this.state.time.format("dd.MM.DD")}</div>
-        <div className="dims">
-          width: {this.state.width}, height: {this.state.height}
-        </div>
       </div>
     );
   }
