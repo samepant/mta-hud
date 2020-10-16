@@ -13,7 +13,7 @@ export default class videos extends React.Component {
   }
 
   componentDidMount() {
-    const intervalid = setInterval(this.setFrame, 5000);
+    const intervalid = setInterval(this.setFrame, 1000);
   }
 
   setFrame = () => {
