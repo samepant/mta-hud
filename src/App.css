@@ -32,7 +32,8 @@ svg {
   overflow: hidden;
 }
 
-.video video {
+.video img {
+  display: block;
   width: 106%;
   margin-left: -4%;
 }
