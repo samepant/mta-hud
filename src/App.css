@@ -5,8 +5,11 @@ svg {
 .st0 {
   display: none;
 }
+.yellow {
+  fill: #fff761;
+}
 .st1 {
-  display: inline;
+  fill: none;
 }
 .st2 {
   fill: #6edcff;
@@ -20,6 +23,34 @@ svg {
 .st5 {
   display: inline;
   fill: #ffffff;
+}
+
+.video {
+  position: absolute;
+  width: 58.3vw;
+  height: 32.1vw;
+  overflow: hidden;
+}
+
+.video video {
+  width: 106%;
+  margin-left: -4%;
+}
+
+.vid1 {
+  top: 8.4vw;
+  left: 6.1vw;
+  background: green;
+}
+.vid2 {
+  top: 53.8vw;
+  left: 20.7vw;
+  background: red;
+}
+.vid3 {
+  top: 97.8vw;
+  left: 35.2vw;
+  background: blue;
 }
 
 .time-list {
